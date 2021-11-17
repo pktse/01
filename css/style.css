@@ -1,0 +1,113 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+div{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  color: #FFD700;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  left: 1vw;
+  bottom: 1vh;
+  font-size: 3em;
+}
+
+.nav_bar {
+  float: left;
+  position:fixed;
+}
+
+.nav_bar_name {
+  font-size: 750%;
+}
+
+.nav_bar_links {
+  z-index:99; 
+}
+
+.nav_bar_links li{
+  list-style-type: none;
+}
+
+.subsection {
+  width: 100%;
+  text-align:center;
+  clear: both;
+  margin-bottom: 20vh;
+}
+
+.subsection p{
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.subsection h1 {
+  font-style: italic;
+}
+
+
+.subsection img {
+  width: 30vw;
+}
+
+
+.subsection h4 {
+  text-decoration: underline;
+}
+
+#about {
+  padding-top: 10vh;
+}
+
+.hover_img {
+  width: 100%;
+  text-align: center;
+}
+
+.hover_img img{
+  display: none;
+  width: 40%;
+  position:absolute; 
+  z-index:99; 
+}
+
+.hover_img a:hover img{
+  display: block;
+}
+
+hr {
+  margin-top: 5vh;
+  width: 50%;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  margin: 5%;
+  background-color: transparent;
+  outline: solid;
+  outline-color: grey;
+  color:grey;
+}
+
+button:hover {
+  background-color: #FFD700;
+  color: black;
+  outline-color: transparent;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
